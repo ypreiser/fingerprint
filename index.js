@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 
 const app = express();
-//sign16
+//sign17
 // Middleware setup with more secure CORS options
 app.use(cors({
   origin: process.env.ALLOWED_ORIGINS?.split(',') || 'http://localhost:3000',
